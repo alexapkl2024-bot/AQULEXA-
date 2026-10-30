@@ -578,3 +578,118 @@ footer {
         grid-template-columns: 1fr;
     }
 }
+
+/* MINI KATALOG UNGGULAN */
+.koleksi-unggulan {
+    padding: 75px 8%;
+    background: #f0f8fc;
+}
+
+.judul-unggulan {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.judul-unggulan span {
+    color: #e58caf;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.judul-unggulan h2 {
+    color: #345873;
+    font-size: 32px;
+    margin: 10px 0;
+}
+
+.judul-unggulan p {
+    color: #71869a;
+    line-height: 1.7;
+}
+
+.kartu-unggulan {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.card-unggulan {
+    background: white;
+    padding: 15px;
+    border-radius: 20px;
+    border: 1px solid #e5eef4;
+    transition: 0.3s;
+}
+
+.card-unggulan:hover {
+    transform: translateY(-7px);
+    box-shadow: 0 12px 25px rgba(50, 90, 120, 0.12);
+}
+
+.card-unggulan img {
+    width: 100%;
+    height: 220px;
+    object-fit: contain;
+    border-radius: 14px;
+    background: #f8fbfd;
+}
+
+.card-unggulan h3 {
+    color: #345873;
+    margin: 15px 0 8px;
+}
+
+.card-unggulan p {
+    color: #71869a;
+    font-size: 13px;
+    min-height: 38px;
+}
+
+.card-unggulan strong {
+    display: block;
+    color: #345873;
+    margin: 15px 0;
+}
+
+.card-unggulan a,
+.tombol-semua a {
+    display: inline-block;
+    text-decoration: none;
+    background: #dff1fb;
+    color: #345873;
+    padding: 11px 18px;
+    border-radius: 25px;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.card-unggulan a:hover,
+.tombol-semua a:hover {
+    background: #bce3f6;
+}
+
+.tombol-semua {
+    text-align: center;
+    margin-top: 35px;
+}
+
+/* Tampilan HP */
+@media (max-width: 768px) {
+    .koleksi-unggulan {
+        padding: 50px 5%;
+    }
+
+    .kartu-unggulan {
+        grid-template-columns: 1fr;
+        gap: 18px;
+    }
+
+    .card-unggulan img {
+        height: 250px;
+    }
+
+    .judul-unggulan h2 {
+        font-size: 26px;
+    }
+}
