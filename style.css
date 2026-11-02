@@ -883,3 +883,34 @@ nav a[href="#ulasan"]:hover {
     text-decoration: none;
     font-weight: inherit;
 }
+
+/* INFORMASI LEGALITAS PERUSAHAAN */
+.footer-legalitas {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-legalitas h3 {
+    color: #526d83;
+    font-size: 17px;
+    margin-bottom: 8px;
+}
+
+.footer-legalitas p {
+    color: #6f8495;
+    font-size: 13px;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.footer-legalitas strong {
+    color: #526d83;
+}
+
+/* RESPONSIVE FOOTER */
+@media (max-width: 768px) {
+    .footer-legalitas {
+        margin-top: 15px;
+    }
+}
