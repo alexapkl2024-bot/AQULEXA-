@@ -54,19 +54,26 @@ function rupiah(angka) {
     }).format(angka);
 }
 
+
 function bukaHalaman(namaHalaman) {
+    // Sembunyikan semua halaman
     document.querySelectorAll(".halaman").forEach(halaman => {
         halaman.classList.remove("aktif");
     });
 
+    // Cari halaman yang akan dibuka
     const halamanTujuan = document.getElementById(namaHalaman);
 
+    // Tampilkan halaman tujuan
     if (halamanTujuan) {
         halamanTujuan.classList.add("aktif");
+
         window.scrollTo({
             top: 0,
             behavior: "smooth"
         });
+    } else {
+        console.error("Halaman tidak ditemukan:", namaHalaman);
     }
 }
 
