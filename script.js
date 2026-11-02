@@ -54,18 +54,15 @@ function rupiah(angka) {
     }).format(angka);
 }
 
-// PINDAH HALAMAN
 function bukaHalaman(namaHalaman) {
-    const semuaHalaman = document.querySelectorAll(".halaman");
-
-    semuaHalaman.forEach(halaman => {
+    document.querySelectorAll(".halaman").forEach(halaman => {
         halaman.classList.remove("aktif");
     });
 
-    const tujuan = document.getElementById(namaHalaman);
+    const halamanTujuan = document.getElementById(namaHalaman);
 
-    if (tujuan) {
-        tujuan.classList.add("aktif");
+    if (halamanTujuan) {
+        halamanTujuan.classList.add("aktif");
         window.scrollTo({
             top: 0,
             behavior: "smooth"

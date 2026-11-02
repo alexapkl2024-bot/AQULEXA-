@@ -693,3 +693,193 @@ footer {
         font-size: 26px;
     }
 }
+
+/* CUSTOMER REVIEWS */
+.ulasan {
+    padding: 75px 8%;
+    background: #ffffff;
+}
+
+.judul-ulasan {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.judul-ulasan span {
+    color: #e58caf;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.judul-ulasan h2 {
+    color: #345873;
+    font-size: 30px;
+    margin: 12px 0;
+}
+
+.judul-ulasan p {
+    color: #71869a;
+    font-size: 14px;
+}
+
+.judul-ulasan small {
+    color: #e58caf;
+    font-size: 12px;
+}
+
+.daftar-ulasan {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 22px;
+}
+
+.kartu-ulasan {
+    background: #f0f8fc;
+    padding: 25px;
+    border-radius: 20px;
+    border: 1px solid #e3eff6;
+    transition: 0.3s;
+}
+
+.kartu-ulasan:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(50, 90, 120, 0.10);
+}
+
+.bintang {
+    color: #f2b84b;
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+
+.kartu-ulasan p {
+    color: #526e84;
+    font-size: 14px;
+    line-height: 1.8;
+    min-height: 75px;
+}
+
+.kartu-ulasan h4 {
+    color: #345873;
+    margin-bottom: 5px;
+}
+
+.kartu-ulasan span {
+    color: #e58caf;
+    font-size: 11px;
+}
+
+/* RESPONSIVE HP */
+@media (max-width: 768px) {
+    .daftar-ulasan {
+        grid-template-columns: 1fr;
+    }
+
+    .judul-ulasan h2 {
+        font-size: 24px;
+    }
+}
+
+/* CUSTOMER REVIEWS */
+.ulasan {
+    padding: 75px 8%;
+    background: #ffffff;
+}
+
+.judul-ulasan {
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.judul-ulasan span {
+    color: #e58caf;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.judul-ulasan h2 {
+    color: #345873;
+    font-size: 30px;
+    margin: 12px 0;
+}
+
+.judul-ulasan p {
+    color: #71869a;
+    font-size: 14px;
+}
+
+.judul-ulasan small {
+    color: #e58caf;
+    font-size: 12px;
+}
+
+.daftar-ulasan {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 22px;
+}
+
+.kartu-ulasan {
+    background: #f0f8fc;
+    padding: 25px;
+    border-radius: 20px;
+    border: 1px solid #e3eff6;
+    transition: 0.3s;
+}
+
+.kartu-ulasan:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(50, 90, 120, 0.10);
+}
+
+.bintang {
+    color: #f2b84b;
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+
+.kartu-ulasan p {
+    color: #526e84;
+    font-size: 14px;
+    line-height: 1.8;
+    min-height: 75px;
+}
+
+.kartu-ulasan h4 {
+    color: #345873;
+    margin-bottom: 5px;
+}
+
+.kartu-ulasan span {
+    color: #e58caf;
+    font-size: 11px;
+}
+
+/* RESPONSIVE HP */
+@media (max-width: 768px) {
+    .daftar-ulasan {
+        grid-template-columns: 1fr;
+    }
+
+    .judul-ulasan h2 {
+        font-size: 24px;
+    }
+}
+
+/* Menyamakan tampilan menu Ulasan dengan navbar lainnya */
+nav a[href="#ulasan"] {
+    color: #58758B;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+nav a[href="#ulasan"]:hover {
+    color: #E58CAF;
+}
+.nav-links a[href="#ulasan"] {
+    color: inherit;
+    text-decoration: none;
+    font-weight: inherit;
+}
